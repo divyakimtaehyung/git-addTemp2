@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-01T11:43:41.493Z",
+        "line": 23,
+        "name": "login retail banking application and validating the screen",
+        "description": "",
+        "id": "login-ios-mobile-application-and-validating-the-screen;login-retail-banking-application-and-validating-the-screen;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 49801000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launch the IOS mobile app with valid capabilities",
+            "match": {
+              "location": "com.iexceed.uiframework.stepdefinitions.IOS.IOSPageStepDefinition.user_launch_the_ios_mobile_app_with_valid_capabilities()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11926000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "mobile app is launched TestCase_000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCase_000",
+                  "offset": 23
+                }
+              ],
+              "location": "com.iexceed.uiframework.stepdefinitions.IOS.homePageStepDefinition.mobile_app_is_launched(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14841000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user set the dob field TestCase_000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCase_000",
+                  "offset": 23
+                }
+              ],
+              "location": "com.iexceed.uiframework.stepdefinitions.IOS.userDetailsStepDefinition.user_set_the_dob_field(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@B"
+          }
+        ]
+      }
+    ],
+    "name": "Login IOS mobile application and validating the screen",
+    "description": "",
+    "id": "login-ios-mobile-application-and-validating-the-screen",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/IOS/iosfeaturefile.feature",
+    "tags": []
+  }
+]
